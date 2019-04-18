@@ -1,0 +1,162 @@
+.topBanner
+{
+	background-image: url("dark-green-leaves-pattern.png");
+  	top: 0px;
+  	width: 102%;
+  	z-index: 99;
+  	margin-left: -8px;
+  	margin-top: -8px;
+
+  	color: rgb(255,60,0);
+}
+.topBanner:before
+{
+	content: url(budget_zoo_logo2_small.svg);
+}
+
+body
+{
+	background-image: url("../css/light-green-leaves-pattern.png");
+	text-align: center;
+	font-size: 30px;
+  	font-family: Arial, Helvetica, sans-serif;
+}
+
+form
+{
+	background-color: rgba(255,255,255,.8);
+	margin: 0 auto;
+	width: 450px;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 5px 5px 10px 1px gray;
+
+	text-align: left;
+	font-size: 18px;
+}
+
+input[type=text], input[type=password]
+{
+	display: inline-block;
+	border-color: darkgreen;
+	border-width: 2px;
+	padding: 5px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	background-image: linear-gradient(to bottom right, rgba(255,255,255,.2), rgba(255,60,0,.1));
+	background-color: rgba(255,60,0,.1);
+}
+input[type=text]:focus, input[type=password]:focus
+{
+	border-color: green;
+	box-shadow: 2px 2px 7px 0px green;
+	background-image: linear-gradient(white, white);
+	background-color: white;
+}
+
+input[type=submit]
+{
+	/*display: block;*/
+	border-color: darkgreen;
+	border-width: 5px;
+	padding: 5px;
+	background-color: rgba(220,220,220,1);
+	background-image: linear-gradient(to bottom right, white, gray);
+	border-radius: 15px;
+	margin: 10px auto;
+
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+input[type=submit]:hover,input[type=submit]:active
+{
+	border-color: green;
+	background-image: linear-gradient(to bottom right, white, darkgreen);
+	background-color: rgba(80,200,80,1);
+	cursor: pointer;
+}
+
+input[type=radio]
+{
+	transform: scale(1.5);
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+input[type=radio]:hover
+{
+	cursor: pointer;
+}
+
+
+a:link, a:visited
+{
+	display: inline-block;
+	margin-top: 20px;
+	text-decoration-color: darkgreen;
+	font-weight: bold;
+	color: rgb(255,60,0);
+}
+a:hover, a:active
+{
+	display: inline-block;
+	margin-top: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(160,50,20);
+}
+
+
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,.5), rgba(255,255,255,1));
+
+}
+th
+{
+	border-bottom: 2px solid darkgreen;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,.5), rgba(0,200,0,.5));
+}
+
+
+
+/*		FOR HOME		*/
+.homeBanner
+{
+	background-image: url("dark-green-leaves-pattern.png");
+  	top: 0px;
+  	width: 100%;
+  	height: 100%;
+  	z-index: 99;
+  	margin-left: 0px;
+  	margin-top: 0px;
+  	padding-top: 5px; 
+
+  	color: rgb(255,60,0);
+}
+.pageTitle
+{
+	font-size: 80px;
+  	font-weight: bold;
+  	font-family: Arial, Helvetica, sans-serif;
+  	color: rgb(160,50,20);
+}
