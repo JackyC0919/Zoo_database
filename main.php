@@ -19,7 +19,7 @@
 		header("Location: login/employeelogin.php");
 	}			
 ?>
-<title>Homepage</title>
+<title>Zoo Homepage</title>
 <link rel="stylesheet" href="css/style.css">
 
 <form action="main.php" method="post" style="width: 102%; height: 70px; margin-left: -9px; margin-top: -8px; padding: 0px; border-radius: 0px;">
